@@ -10,7 +10,7 @@ public class DemoController {
 	@GetMapping("/welcome")
 	public String greeting(@RequestParam (value="name",defaultValue="User") String name)
 	{
-		return "Hello, Welcome "+ name;
+		return " Welcome "+ name;
 	}
 
 }
